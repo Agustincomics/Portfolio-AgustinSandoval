@@ -1,0 +1,26 @@
+/*Footer*/
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--detalles)
+}
+
+.footer-icon-link {
+  text-decoration: none;
+}
+
+.footer-icon {
+  fill: var(--detalles);
+}
+
+.footer-icon:hover {
+  fill: azure;
+}
+
+.footer-text {
+  margin-left: 5px;
+}
