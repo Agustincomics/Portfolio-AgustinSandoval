@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Footer from './components/common/Footer'
 
 function App() {
 
   return (
     <>
-     
+     <Footer></Footer>
     </>
   )
 }
