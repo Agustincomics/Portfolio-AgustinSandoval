@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav } from "react-bootstrap"
 
-const Navbar = () => {
+const Menu = () => {
     return (
         <Navbar expand="lg" className="bg-dark navBar">
             <Container>
@@ -23,4 +23,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Menu;

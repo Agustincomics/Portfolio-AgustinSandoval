@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Button, Modal } from 'react-bootstrap';
+import capturaCv from '../../assets/capturaCv.png'
 
 function MyVerticallyCenteredModal(props) {
     return (
@@ -15,6 +16,7 @@ function MyVerticallyCenteredModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
+                <img src={capturaCv} alt="Cv de AgustinSandoval"/>
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide}>Volver</Button>
